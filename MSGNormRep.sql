@@ -7,7 +7,10 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 ALTER PROCEDURE [dbo].[MSGNormRep2] 
-	@minweight float,@limit float,@beg datetime,@end  datetime
+	@minweight float,
+	@limit float,
+	@beg datetime,
+	@end  datetime
 AS
 -- Гришин В.А. 23.06.2016 
 -- Эта процедура работает только на чтение и используется для расчета показателей номирования МСГ
